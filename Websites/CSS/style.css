@@ -1,0 +1,74 @@
+/*-------------------------------
+  colors, fonts and variables setup
+  -------------------------------*/
+  
+  
+
+:root{
+    --c-primary: #0e557e;
+    --c-background:#e6e6e6;
+    --c-dark:#2d2d2d;
+    --c-black:#000000;
+    --font-base:"poppins";
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: var(--c-primary);
+}
+
+a:hover{
+  color: var(--c-primary);
+}
+
+.section-padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*-------------------------------
+ Button CSS setup
+  -------------------------------*/
+.btn{
+  background-color: var(--c-primary);
+}
+
+
+/*-------------------------------
+NavBar CSS setup
+  -------------------------------*/
+.navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bg-dark{
+  background-color: var(--c-black);
+}
+
+/*-------------------------------
+Hero CSS setup
+  -------------------------------*/
+#Hero{
+  background: url(../Images/Home/hero.jpg);
+  
+  
+}
