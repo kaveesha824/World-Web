@@ -5,7 +5,7 @@
   
 
 :root{
-    --c-primary: #0e557e;
+    --c-primary: #1a5582;
     --c-background:#e6e6e6;
     --c-dark:#2d2d2d;
     --c-black:#000000;
@@ -32,8 +32,8 @@ a:hover{
 }
 
 .section-padding{
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 
 }
 
@@ -46,10 +46,20 @@ img{
 /*-------------------------------
  Button CSS setup
   -------------------------------*/
-.btn{
-  background-color: var(--c-primary);
+
+.btn-primary{
+  background-color: var(--c-primary) !important;
+  border:none !important;  
 }
 
+.btn-light{
+  background-color: var(--c-background) !important;
+  border:none !important;  
+  }
+
+.btn:hover{
+  background-color: #6d8db6 !important;
+}
 
 /*-------------------------------
 NavBar CSS setup
@@ -60,7 +70,7 @@ NavBar CSS setup
     font-weight: 500;
 }
 
-.bg-dark{
+.navbar-dark{
   background-color: var(--c-black);
 }
 
@@ -69,6 +79,53 @@ Hero CSS setup
   -------------------------------*/
 #Hero{
   background: url(../Images/Home/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-top: -55px;  
   
-  
+}
+
+.herotext1{
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.herotext2{
+    font-size: 40px;
+}
+
+/*-------------------------------
+About Us CSS setup
+  -------------------------------*/
+.about{
+  font-family: "poppins";
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.about-p{
+  font-family: "poppins";
+  font-size:18px;
+  font-weight: 100;
+}
+
+
+/*-------------------------------
+Icon Box CSS setup
+  -------------------------------*/
+.iconbox{
+  background: rgb(236, 232, 232) ;
+  color: var(--c-primary);
+  width: 60px;
+  height: 60px;
+  font-size: 55px;
+  align-items: center;
+  display: flex;
+  flex: none;
+
+}
+
+.whyimg{
+  width: 400px;
+  height: 700px;
 }
